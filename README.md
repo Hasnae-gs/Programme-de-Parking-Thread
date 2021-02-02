@@ -9,16 +9,27 @@ L’activité humaine regorge de situations où les êtres humains doivent se sy
 Il doit attendre quand il n’y a plus de panier pour y mettre ses vêtements ;
 Il doit attendre si toutes les cabines sont occupées. Son activité peut se résumer comme suit :
 Processus baigneur arriver à la piscine
+
 o P (panier) Puis-je prendre un panier ?
+
 o prendre un panier
+
 o P (cabine) Puis-je avoir une cabine ?
+
 o choisir une cabine (déshabillage)
+
 o V (cabine) Libérer la cabine
+
 o se baigner
+
 o P (cabine) Puis-je avoir une cabine ?
+
 o choisir une cabine (rhabillage)
+
 o V (cabine) Libérer la cabine
+
 o V (panier) Rendre le panier
+
 o quitter la piscine 
 
 Chaque thread baigneur écrit son numéro et son état dans un tube commun à tous les baigneurs. 
